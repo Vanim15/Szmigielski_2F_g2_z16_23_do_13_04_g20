@@ -1,0 +1,19 @@
+
+p {
+    color: red; 
+    font-size: 22pt;
+}
+
+/
+#gruby_szmigielski_ucznia {
+    color: green; 
+    font-size: 17pt; 
+    font-weight: bold; 
+}
+
+
+#dlawszyskich_szmigielski_ucznia {
+    color: yellow; 
+    font-size: 10pt; 
+    font-family: Arial, sans-serif; 
+}

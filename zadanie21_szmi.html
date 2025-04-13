@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 21: Użycie ID</title>
+    <style>
+        .table {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .row {
+            display: table-row;
+        }
+        .column {
+            display: table-cell;
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        .header {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zadanie 21: Użycie ID</h1>
+    <div class="table">
+        <div class="row">
+            <div class="column header">Pojęcie</div>
+            <div class="column header">Znaczenie pojęcia</div>
+        </div>
+        <div class="row">
+            <div class="column">Co znaczy skrót ID?</div>
+            <div class="column">
+                ID jest skrótem od angielskiego słowa "Identifier", co oznacza "identyfikator".
+                Jest to unikalny identyfikator, który pozwala na jednoznaczne zidentyfikowanie elementu w dokumencie HTML.
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">Jakie jest cel stosowania ID?</div>
+            <div class="column">
+                Celem stosowania ID jest umożliwienie jednoznacznego identyfikowania i manipulowania konkretnymi elementami
+                w dokumencie HTML za pomocą CSS lub JavaScript. Dzięki ID można zastosować unikalne style lub skrypty do określonych elementów.
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">Jakie jest znaczenie znaku #?</div>
+            <div class="column">
+                Znak <strong>#</strong> jest używany w CSS do odwoływania się do elementów za pomocą ich identyfikatora ID.
+                Na przykład, jeśli element ma atrybut <code>id="nazwa"</code>, to w CSS można odwołać się do tego elementu
+                za pomocą selektora <code>#nazwa</code>.
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">Jak następuje wywołanie ID (wraz z wytłumaczeniem)?</div>
+            <div class="column">
+                Wywołanie ID następuje za pomocą znaku <strong>#</strong> przed nazwą identyfikatora.
+                Na przykład, jeśli element ma atrybut <code>id="naglowek"</code>, to w CSS można odwołać się do tego elementu
+                za pomocą selektora <code>#naglowek</code>.
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">Uwagi na temat stosowania ID (trzy, konieczne wyliczenia).</div>
+            <div class="column">
+                <ol>
+                    <li><strong>Unikalność:</strong> ID musi być unikalne w obrębie całego dokumentu HTML. Nie można użyć tego samego ID dla więcej niż jednego elementu.</li>
+                    <li><strong>Priorytet:</strong> ID ma wyższy priorytet niż klasy i inne selektory w CSS, co oznacza, że style zdefiniowane dla ID będą miały pierwszeństwo.</li>
+                    <li><strong>Zastosowanie:</strong> ID jest szczególnie użyteczne w przypadku manipulowania elementami za pomocą JavaScript, gdyż pozwala na łatwe znalezienie i modyfikację konkretnych elementów.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+p#pogrubienie_szmigielski_ucznia {
+    font-size: 36px; 
+    color: #9F3C0C; 
+}
+
+
+p#pochylona_szmigielski_ucznia {
+    font-size: 41pt; 
+    color: #D7640C; 
+}
+
+
+p#index_gorny_szmigielski_ucznia {
+    font-size: 1.6cm; 
+    color: #8F3C0C; 
+    vertical-align: super; 
+}
+
+
+p#index_dolny_szmigielski_ucznia {
+    font-size: 2.8cm;
+    color: rgba(70, 226, 20, 0.5); 
+    vertical-align: sub; 
+}
+
+
+p#mono_szmigielski_ucznia {
+    font-size: 46px; 
+    color: #11640C; 
+    font-family: monospace; 
+}
+
+
+p#powiekszenie_szmigielski_ucznia {
+    font-size: 200%; 
+    color: #4B640C; 
+}
+
+
+p#pomniejszenie_szmigielski_ucznia {
+    font-size: 50%; 
+    color: rgba(175, 146, 50, 0.5); 
+}
